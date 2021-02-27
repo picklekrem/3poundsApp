@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23BBADCFFAA01060018D221F /* Pods_3poundsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81036D2531B26B36DA2EE5DE /* Pods_3poundsApp.framework */; };
+		EA553EF425E650B10064C8C0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA553EF325E650B10064C8C0 /* DetailsViewController.swift */; };
+		EA553EF725E655370064C8C0 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA553EF625E655370064C8C0 /* PhotosViewModel.swift */; };
+		EA553F0325E66DBD0064C8C0 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA553F0225E66DBD0064C8C0 /* CommentViewModel.swift */; };
+		EA55717025E59FD600DE0F4B /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55716F25E59FD600DE0F4B /* AlbumModel.swift */; };
+		EA55717525E5A13600DE0F4B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55717425E5A13600DE0F4B /* Webservice.swift */; };
+		EA55717D25E5A37B00DE0F4B /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55717C25E5A37B00DE0F4B /* AlbumViewModel.swift */; };
+		EA55718225E5A89900DE0F4B /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55718125E5A89900DE0F4B /* AlbumViewController.swift */; };
+		EA61B7AC25E6E68A00650062 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61B7AA25E6E68A00650062 /* AlbumTableViewCell.swift */; };
+		EA61B7AD25E6E68A00650062 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA61B7AB25E6E68A00650062 /* AlbumTableViewCell.xib */; };
+		EA61B7B625E6EB2000650062 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61B7B425E6EB2000650062 /* DetailsTableViewCell.swift */; };
+		EA61B7B725E6EB2000650062 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA61B7B525E6EB2000650062 /* DetailsTableViewCell.xib */; };
+		EA8E88CA25E561FE00831778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E88C925E561FE00831778 /* AppDelegate.swift */; };
+		EA8E88CC25E561FE00831778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E88CB25E561FE00831778 /* SceneDelegate.swift */; };
+		EA8E88CE25E561FE00831778 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E88CD25E561FE00831778 /* WelcomeViewController.swift */; };
+		EA8E88D125E561FE00831778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8E88CF25E561FE00831778 /* Main.storyboard */; };
+		EA8E88D325E5620000831778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8E88D225E5620000831778 /* Assets.xcassets */; };
+		EA8E88D625E5620000831778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8E88D425E5620000831778 /* LaunchScreen.storyboard */; };
+		EA97D99B25E7F72E005FD1FE /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97D99A25E7F72E005FD1FE /* PopUpViewController.swift */; };
+		EAC2C27A25E6826500CED7C3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC2C27925E6826500CED7C3 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EC2D80B699592A978906E98 /* Pods-3poundsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3poundsApp.release.xcconfig"; path = "Target Support Files/Pods-3poundsApp/Pods-3poundsApp.release.xcconfig"; sourceTree = "<group>"; };
+		81036D2531B26B36DA2EE5DE /* Pods_3poundsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3poundsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FA86EE385A3B07B194199D /* Pods-3poundsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3poundsApp.debug.xcconfig"; path = "Target Support Files/Pods-3poundsApp/Pods-3poundsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EA553EF325E650B10064C8C0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EA553EF625E655370064C8C0 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		EA553F0225E66DBD0064C8C0 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		EA55716F25E59FD600DE0F4B /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		EA55717425E5A13600DE0F4B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		EA55717C25E5A37B00DE0F4B /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		EA55718125E5A89900DE0F4B /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		EA61B7AA25E6E68A00650062 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		EA61B7AB25E6E68A00650062 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		EA61B7B425E6EB2000650062 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		EA61B7B525E6EB2000650062 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		EA8E88C625E561FE00831778 /* 3poundsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3poundsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8E88C925E561FE00831778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8E88CB25E561FE00831778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA8E88CD25E561FE00831778 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EA8E88D025E561FE00831778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8E88D225E5620000831778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA8E88D525E5620000831778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA8E88D725E5620000831778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA97D99A25E7F72E005FD1FE /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		EAC2C27925E6826500CED7C3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8E88C325E561FE00831778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BBADCFFAA01060018D221F /* Pods_3poundsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE346DBDF450C772351B6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81036D2531B26B36DA2EE5DE /* Pods_3poundsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83B449C0585A4A9A54BA4558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84FA86EE385A3B07B194199D /* Pods-3poundsApp.debug.xcconfig */,
+				2EC2D80B699592A978906E98 /* Pods-3poundsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA553EF925E6564A0064C8C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E88CD25E561FE00831778 /* WelcomeViewController.swift */,
+				EAC2C27925E6826500CED7C3 /* ProfileViewController.swift */,
+				EA55718125E5A89900DE0F4B /* AlbumViewController.swift */,
+				EA61B7AA25E6E68A00650062 /* AlbumTableViewCell.swift */,
+				EA61B7AB25E6E68A00650062 /* AlbumTableViewCell.xib */,
+				EA553EF325E650B10064C8C0 /* DetailsViewController.swift */,
+				EA61B7B425E6EB2000650062 /* DetailsTableViewCell.swift */,
+				EA61B7B525E6EB2000650062 /* DetailsTableViewCell.xib */,
+				EA97D99A25E7F72E005FD1FE /* PopUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA55716E25E59FC700DE0F4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA55716F25E59FD600DE0F4B /* AlbumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA55717225E5A12200DE0F4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EA55717425E5A13600DE0F4B /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EA55717725E5A33C00DE0F4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA55717C25E5A37B00DE0F4B /* AlbumViewModel.swift */,
+				EA553EF625E655370064C8C0 /* PhotosViewModel.swift */,
+				EA553F0225E66DBD0064C8C0 /* CommentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA8E88BD25E561FE00831778 = {
+			isa = PBXGroup;
+			children = (
+				EA8E88C825E561FE00831778 /* 3poundsApp */,
+				EA8E88C725E561FE00831778 /* Products */,
+				83B449C0585A4A9A54BA4558 /* Pods */,
+				4EE346DBDF450C772351B6BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8E88C725E561FE00831778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E88C625E561FE00831778 /* 3poundsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8E88C825E561FE00831778 /* 3poundsApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA55716E25E59FC700DE0F4B /* Model */,
+				EA55717225E5A12200DE0F4B /* Service */,
+				EA55717725E5A33C00DE0F4B /* ViewModel */,
+				EA553EF925E6564A0064C8C0 /* View */,
+				EA97D99D25E80362005FD1FE /* Delegates */,
+				EA8E88CF25E561FE00831778 /* Main.storyboard */,
+				EA8E88D425E5620000831778 /* LaunchScreen.storyboard */,
+				EA8E88D225E5620000831778 /* Assets.xcassets */,
+				EA8E88D725E5620000831778 /* Info.plist */,
+			);
+			path = 3poundsApp;
+			sourceTree = "<group>";
+		};
+		EA97D99D25E80362005FD1FE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E88C925E561FE00831778 /* AppDelegate.swift */,
+				EA8E88CB25E561FE00831778 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8E88C525E561FE00831778 /* 3poundsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8E88DA25E5620000831778 /* Build configuration list for PBXNativeTarget "3poundsApp" */;
+			buildPhases = (
+				EF53DE97223A5D834167D61B /* [CP] Check Pods Manifest.lock */,
+				EA8E88C225E561FE00831778 /* Sources */,
+				EA8E88C325E561FE00831778 /* Frameworks */,
+				EA8E88C425E561FE00831778 /* Resources */,
+				2F3E84648CE8EC59355A95ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3poundsApp;
+			productName = 3poundsApp;
+			productReference = EA8E88C625E561FE00831778 /* 3poundsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8E88BE25E561FE00831778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EA8E88C525E561FE00831778 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EA8E88C125E561FE00831778 /* Build configuration list for PBXProject "3poundsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8E88BD25E561FE00831778;
+			productRefGroup = EA8E88C725E561FE00831778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8E88C525E561FE00831778 /* 3poundsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8E88C425E561FE00831778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA61B7B725E6EB2000650062 /* DetailsTableViewCell.xib in Resources */,
+				EA8E88D625E5620000831778 /* LaunchScreen.storyboard in Resources */,
+				EA8E88D325E5620000831778 /* Assets.xcassets in Resources */,
+				EA8E88D125E561FE00831778 /* Main.storyboard in Resources */,
+				EA61B7AD25E6E68A00650062 /* AlbumTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F3E84648CE8EC59355A95ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3poundsApp/Pods-3poundsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3poundsApp/Pods-3poundsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3poundsApp/Pods-3poundsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF53DE97223A5D834167D61B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3poundsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8E88C225E561FE00831778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA553F0325E66DBD0064C8C0 /* CommentViewModel.swift in Sources */,
+				EA55717D25E5A37B00DE0F4B /* AlbumViewModel.swift in Sources */,
+				EA61B7B625E6EB2000650062 /* DetailsTableViewCell.swift in Sources */,
+				EA553EF425E650B10064C8C0 /* DetailsViewController.swift in Sources */,
+				EA8E88CE25E561FE00831778 /* WelcomeViewController.swift in Sources */,
+				EA55717025E59FD600DE0F4B /* AlbumModel.swift in Sources */,
+				EA8E88CA25E561FE00831778 /* AppDelegate.swift in Sources */,
+				EA55717525E5A13600DE0F4B /* Webservice.swift in Sources */,
+				EA553EF725E655370064C8C0 /* PhotosViewModel.swift in Sources */,
+				EA97D99B25E7F72E005FD1FE /* PopUpViewController.swift in Sources */,
+				EAC2C27A25E6826500CED7C3 /* ProfileViewController.swift in Sources */,
+				EA61B7AC25E6E68A00650062 /* AlbumTableViewCell.swift in Sources */,
+				EA8E88CC25E561FE00831778 /* SceneDelegate.swift in Sources */,
+				EA55718225E5A89900DE0F4B /* AlbumViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA8E88CF25E561FE00831778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8E88D025E561FE00831778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8E88D425E5620000831778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8E88D525E5620000831778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8E88D825E5620000831778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8E88D925E5620000831778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8E88DB25E5620000831778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FA86EE385A3B07B194199D /* Pods-3poundsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WMHQ3J6DZ;
+				INFOPLIST_FILE = 3poundsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ekremozkaraca.-poundsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8E88DC25E5620000831778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC2D80B699592A978906E98 /* Pods-3poundsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WMHQ3J6DZ;
+				INFOPLIST_FILE = 3poundsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ekremozkaraca.-poundsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8E88C125E561FE00831778 /* Build configuration list for PBXProject "3poundsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8E88D825E5620000831778 /* Debug */,
+				EA8E88D925E5620000831778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8E88DA25E5620000831778 /* Build configuration list for PBXNativeTarget "3poundsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8E88DB25E5620000831778 /* Debug */,
+				EA8E88DC25E5620000831778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8E88BE25E561FE00831778 /* Project object */;
+}
