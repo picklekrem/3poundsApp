@@ -56,14 +56,15 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let photoViewModel = self.photoListViewModel.photoAtIndex(indexPath.row)
         chosenAlbumId = "\(photoViewModel.albumId)"
         chosenId = "\(photoViewModel.id)"
         chosenTitleLabel = photoViewModel.title
         chosenImageView = photoViewModel.url
-        
         performSegue(withIdentifier: "popUpVc", sender: nil)
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "popUpVc"{
@@ -120,10 +121,7 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     @IBAction func segmentChange(_ sender: UISegmentedControl) {
-        
-
         detailsTableView.reloadData()
-        
     }
     
 }

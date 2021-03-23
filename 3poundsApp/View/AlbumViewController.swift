@@ -13,6 +13,7 @@ class AlbumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     private var albumListViewModel : AlbumListViewModel!
     
     var chosenPageId = Int()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

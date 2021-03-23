@@ -64,5 +64,9 @@
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>To choose a photo</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
 </dict>
 </plist>
